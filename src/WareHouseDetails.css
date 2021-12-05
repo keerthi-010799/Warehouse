@@ -1,0 +1,46 @@
+.details{
+text-align: justify;
+height: 600px;
+width: 600px;
+margin-left: 250px;
+margin-right: 300px;
+padding-left: 40px;
+margin-top: 10px;
+background-color: #7199c2;
+position: relative;
+margin: 60px auto 0;
+padding:10px;
+box-sizing: border-box;
+}
+
+.input{
+    border: none;
+    outline: none;
+    overflow: hidden;
+    color: greenyellow;
+    margin-left: 25px;
+    background: rgba(255, 255, 255, .1);
+
+}
+.row{
+    margin-top: 4px;
+}
+button{
+    margin-right: 10px;
+    background-color: coral;
+    color: mintcream;
+    height: 30px;
+
+}
+    .details div{
+        display: flex;
+        background-color: rgba(255, 255, 255, .1);
+        padding: 10px 20px;
+        color: darkmagenta;
+        margin: 5px 0;
+        transition: .5s;
+    }
+    .details div:hover{
+        transform:scale(1.06);
+        background: #7199c2;
+    }
